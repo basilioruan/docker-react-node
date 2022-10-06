@@ -15,7 +15,7 @@ services:
     networks:
       - udemy-network
   backend:
-    image: node-react-backend
+    image: basilioruan/node-react-backend
     restart: "no"
     build:
       context: ./backend
@@ -30,7 +30,7 @@ services:
     networks:
       - udemy-network
   frontend:
-    image: node-react-fronted
+    image: basilioruan/node-react-fronted
     restart: "no"
     build:
       context: ./frontend
