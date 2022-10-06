@@ -4,7 +4,7 @@ node_js:
 
 before_install: 
   - sudo apt-get update
-  - cd /frontend
+  - cd frontend/
   - echo "Let's install nodemodules in frontend !!!"
   - npm install
   - cd ../backend
